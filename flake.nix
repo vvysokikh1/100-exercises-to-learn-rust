@@ -22,13 +22,6 @@
             rustToolchain
             pkgs.workshop-runner
           ];
-
-          shellHook = ''
-            echo "Rust dev environment ready"
-            echo "  rustc: $(rustc --version)"
-            echo "  cargo: $(cargo --version)"
-            exec zsh
-          '';
         };
       });
 }
