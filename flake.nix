@@ -21,6 +21,7 @@
           buildInputs = [
             rustToolchain
             pkgs.workshop-runner
+            pkgs.cargo-modules
           ];
         };
       });
