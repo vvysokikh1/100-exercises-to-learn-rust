@@ -1,5 +1,5 @@
 mod ticket {
-    pub struct Ticket {
+    pub(crate) struct Ticket {
         title: String,
         description: String,
         status: String,
@@ -68,10 +68,10 @@ mod tests {
         //
         // TODO: Once you have verified that the below does not compile,
         //   comment the lines out to move on to the next exercise!
-        //let ticket = Ticket {
+        // let ticket = Ticket {
         //    title: "A title".into(),
         //    description: "A description".into(),
         //    status: "To-Do".into(),
-        //};
+        // };
     }
 }
